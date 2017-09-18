@@ -1,0 +1,36 @@
+{
+  "name": "instabuddy-socket",
+  "version": "1.0.0",
+  "description": "Socket server for InstaBuddy.",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "standard-focus",
+    "start": "node src",
+    "mongo": "mongod -f mongo.conf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/instabuddy-socket.git"
+  },
+  "keywords": [
+    "instabuddy",
+    "socket"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/instabuddy-socket/issues"
+  },
+  "homepage": "https://github.com/codealchemist/instabuddy-socket#readme",
+  "devDependencies": {
+    "standard-focus": "^1.1.2"
+  },
+  "dependencies": {
+    "mongojs": "^2.4.1",
+    "ws": "^3.1.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^3.0.2",
+    "utf-8-validate": "^3.0.3"
+  }
+}
